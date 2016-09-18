@@ -1,0 +1,297 @@
+#handshake {
+    height: 100vh;
+}
+
+#left-side:after {
+    position: absolute;
+    content:"";
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background: rgba(30,55,92,0.47);
+}
+
+#right-side {
+    background: radial-gradient(#416A96, #1E385C);
+    height: 100%;
+    padding: 0;
+
+}
+
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
+
+#logo {
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10%;
+}
+
+
+#right-side button {
+    font-family: "Avenir Next";
+    font-weight: bold;
+    color: #FFFFFF;
+    letter-spacing: 0px;
+    padding: 0;
+    width: 300px;
+    height: 60px;
+
+    display: inline;
+    margin: 5px auto;
+    background: rgba(215,215,215,0.35);
+    border-radius: 0;
+}
+
+.fancy-button:before {
+    color: white;
+    font-family: FontAwesome;
+    font-size: 19px;
+    width:100%;
+    height:100%;
+    background: rgba(216,216,216,0.50);
+    margin-right: -4px;
+}
+
+#recruiter-btn:before {
+    content: "\f007";
+    padding: 18px 20px 23px 20px;
+
+}
+
+#student-btn:before {
+    content: "\f02d";
+    padding: 18px 18px 23px 19px;
+
+}
+
+#choose-who-section {
+    margin: 0 auto;
+}
+
+.login-form {
+    margin: 20px 0 20px 15%;
+}
+
+form label {
+    font-family: "Avenir Next";
+    font-weight: 300;
+    color: #BBBBBB;
+}
+
+.submit-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+form input {
+    font-family: "Avenir Next";
+    font-weight: bold;
+    width: 100px;
+    height: 40px;
+    color: #FFFFFF;
+    letter-spacing: 0px;
+    padding: 0;
+    background: rgba(215,215,215,0.35);
+    border-radius: 0;
+    border: none;
+}
+
+/*~~~~~~~~~~*/
+
+#bg {
+    background: radial-gradient(#416A96, #1E385C);}
+
+.setup-page {
+    padding: 0 30%;
+    min-height: 100vh;
+}
+
+.setup-page form {
+    width: 100%;
+}
+
+#mini-logo {
+    margin: 2%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.form-group button {
+    font-family: "Avenir Next";
+    font-weight: bold;
+    width: 80px;
+    height: 40px;
+    color: #FFFFFF;
+    letter-spacing: 0px;
+    padding: 0;
+    margin-right: 15px;
+    background: rgba(215,215,215,0.35);
+    border-radius: 0;
+}
+
+.next-btn-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/*~~~~~~~~~~~~~~~~~~*/
+
+.vert-text {
+    writing-mode: tb-rl; 
+}
+
+.hor-text {
+    writing-mode: horizontal-tb;
+}
+
+.home-page {
+    min-height: 100vh;
+}
+
+#queue-line {
+    color: #7a7a7a;
+    height: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#index {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#company-user-icon {
+    color: #00AEEF;
+    font-size: xx-large;
+    margin-bottom: 5%;
+}
+
+#student-user-icon {
+    color: white;
+    font-size: xx-large;
+    margin: 5% 0;
+}
+
+.home-page .container {
+    min-height: 100vh;
+    display: flex;
+    align-items: flex-end;
+}
+
+#next-student {
+    margin-bottom: 5vh;
+    margin-top: 9vh;
+    color: white;
+}
+
+#company-name {
+    color: #00AEEF;
+}
+
+#right-side-queue button {
+    font-family: "Avenir Next";
+    font-weight: bold;
+    width: 170px;
+    height: 40px;
+    color: #FFFFFF;
+    letter-spacing: 0px;
+    padding: 0;
+    margin-right: 15px;
+    background: rgba(215,215,215,0.35);
+    border-radius: 0;
+    margin-left: -3px;
+}
+
+#next-std {
+    margin-bottom: 38vh;
+}
+
+#q-length {
+    padding: 11px 10px 13px 10px;
+    color: white;
+    background: rgba(216,216,216,0.50);
+
+    display: inline;
+}
+
+.q-page {
+    min-height: 100vh;
+}
+
+.circles-container {
+    margin: 0 auto;
+    display: inherit;
+    flex-wrap: wrap;
+}
+
+.circles-container .fa-plus-circle {
+    color: #00AEEF;
+    padding: 20px 24px;
+}
+
+.circles-container button {
+    background: transparent;
+    border: none;
+    padding: 0;
+}
+
+.circles-container button img {
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    padding: 6%;
+}
+
+.circles-container p {
+    font-family: "Avenir Next";
+    color: white;
+}
+
+.company {
+    margin: 2%;
+}
+
+
+.busy {
+    color: red;
+}
+
+.free {
+    color: #00FF18;
+}
+
+.okay {
+    color: yellow;
+}
+
+.media {
+    color: white;
+    font-family: "Avenir Next";
+    font-weight: 300;
+}
+
+img.media-object {
+    margin-right: 20px;
+}
+
+#add {
+    font-family: "Avenir Next";
+    font-weight: bold;
+    width: 170px;
+    height: 40px;
+    color: #FFFFFF;
+    letter-spacing: 0px;
+    padding: 0;
+    background: rgba(215,215,215,0.35);
+    border-radius: 0;
+}
